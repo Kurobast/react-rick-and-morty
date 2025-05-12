@@ -32,7 +32,7 @@ function CharacterList() {
   }, [page]);
 
   return (
-    <div className="container">
+    <div className="container-fluid">
 
         <NavPage page={page} setPage={setPage} />
 
