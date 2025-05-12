@@ -4,5 +4,4 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   plugins: [react()],
   base: '/react-rick-and-morty/', 
-  //server: { host: 'localhost',  port: 3000,  },
 });
